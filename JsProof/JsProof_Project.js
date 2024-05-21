@@ -7,7 +7,7 @@ Assessment Requirements
 3. Your listNFTs() function will print all of your NFTs metadata to the console (i.e. console.log("Name: " + someNFT.name))
 4. For good measure, getTotalSupply() should return the number of NFT's you have created
 */
-const arrayofNumber = [1, 2, 4, 5, 6, 1];
+// Example : const arrayofNumber = [1, 2, 4, 5, 6, 1];
 // create a variable to hold your NFT's
 const ALLMYNFTS = [];
 // this function will take in some values as parameters, create an
@@ -61,8 +61,8 @@ function getTotalSupply() {
 
 mintNFT(101, "Pradeep Sahu", 20, false, true, false, 1, 172, 60.2);
 mintNFT(1, "Ritik Sahu", 22, true, true, false, 6, 180, 72.5);
-mintNFT("Sumit Sahu", 25, true, true, true, 10, 175, 67);
-mintNFT("Roshan Sahu", 18, true, true, false, 3, 170, 65.5);
+mintNFT(22, "Sumit Sahu", 25, true, true, true, 10, 175, 67);
+mintNFT(25, "Roshan Sahu", 18, true, true, false, 3, 170, 65.5);
 
 listNFTs();
 
